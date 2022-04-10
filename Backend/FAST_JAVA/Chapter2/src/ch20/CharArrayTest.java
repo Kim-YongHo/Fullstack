@@ -12,7 +12,7 @@ public class CharArrayTest {
  		}
 		
 		for(char alpha : alphabets) {
-			System.out.println(alpha + "," + (int)alpha);
+			System.out.println(alpha + ", " + (int)alpha);
 		}
 
 	}
