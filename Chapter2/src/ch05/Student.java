@@ -18,7 +18,7 @@ public class Student {
 	
 	public String showStudentInfo() {
 		
-		return studentName + "학생의 법은" +
+		return studentName + "학생의 번호는 " +
 				studentNumber + "이고, " +
 				grade + "학년 입니다.";
 	}

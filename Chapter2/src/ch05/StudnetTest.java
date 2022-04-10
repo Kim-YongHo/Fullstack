@@ -11,7 +11,7 @@ public class StudnetTest {
 		Student studentKim = new Student(123456, "Kim", 3);
 		System.out.println(studentKim.showStudentInfo());
 		
-		
+		System.out.println(studentLee);
 
 	}
 
