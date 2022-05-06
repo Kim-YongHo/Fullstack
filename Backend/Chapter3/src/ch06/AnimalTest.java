@@ -68,7 +68,6 @@ public class AnimalTest {
 		test.moveAnimal(tAnimal);
 		test.moveAnimal(eAnimal);
 		
-		
 		System.out.println("======================================");
 		
 		ArrayList<Animal> animalList = new ArrayList<>();
