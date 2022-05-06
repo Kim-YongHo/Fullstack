@@ -1,6 +1,6 @@
-package ch03;
+package ch04;
 
-//ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ö°ï¿½ ï¿½Å°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
+//µðÆúÆ® »ý¼ºÀÚ ¾ø¾Ö°í ¸Å°³ º¯¼ö°¡ ÀÖ´Â »ý¼ºÀÚ Ãß°¡
 public class Customer{
 	protected int customerID;
 	protected String customerName;
@@ -15,7 +15,6 @@ public class Customer{
 		
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
-		System.out.println("Customer(int, String) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½");
 	}
 	
 	public int calPrice(int price) {
@@ -50,6 +49,6 @@ public class Customer{
 	}
 
 	public String showCustomerInfo() {
-		return customerName + "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ " + customerGrade + "ï¿½Ì¸ï¿½, ï¿½ï¿½ï¿½Ê½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½" + bonusPoint + "ï¿½Ô´Ï´ï¿½";
+		return customerName + "´ÔÀÇ µî±ÞÀº " + customerGrade + "ÀÌ¸ç, º¸³Ê½º Æ÷ÀÎÆ®´Â" + bonusPoint + "ÀÔ´Ï´Ù";
 	}
 }

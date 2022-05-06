@@ -1,17 +1,17 @@
 package ch03;
 
 public class CustomerTest {
-	
+
 	public static void main(String[] args) {
 		
-		Customer customerLee = new Customer(10010, "ÀÌ¼ø½Å");
+		Customer customerLee = new Customer(10010, "ï¿½Ì¼ï¿½ï¿½ï¿½");
+		
+		customerLee.bonusPoint = 1000;
 		System.out.println(customerLee.showCustomerInfo());
 		
+		VIPCustomer customerKim = new VIPCustomer(10020, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		
-		Customer customerKim = new VIPCustomer(10020, "±èÀ¯½Å");
+		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());
-		
-		
 	}
-
 }

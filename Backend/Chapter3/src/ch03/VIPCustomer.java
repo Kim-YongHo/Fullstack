@@ -2,35 +2,20 @@ package ch03;
 
 public class VIPCustomer extends Customer {
 	
-
 	double salesRatio;
 	private String agentID;
 	
-//	public VIPCustomer() {
-//		
-//		super(0, "no-name");
-//		bonusRatio = 0.05;
-//		salesRatio = 0.1;
-//		customerGrade = "VIP";
-//		
-//		System.out.println("VIPCustomer Å¬·¡½º È£Ãâ");
-//	}
 	
+	//superï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½
 	public VIPCustomer(int customerID, String customerName) {
-		
-		super(customerID, customerName);
-		
-		
-		customerGrade = "VIP";
-		bonusRatio = 0.05;
-		salesRatio = 0.1;
-		
-		System.out.println("VIPCutomer È£Ãâ");
-		
+			super(customerID, customerName);
+			
+			customerGrade = "VIP";
+			bonusRatio = 0.05;
+			salesRatio = 0.1;
+			
+			System.out.println("VIPCustomer(int, String) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½");
 	}
-	
-	public String getAgentID() {
-		return agentID;
-	}
+
 	
 }
